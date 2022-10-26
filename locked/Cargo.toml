@@ -1,0 +1,15 @@
+[package]
+name = "locked"
+version = "0.1.0"
+edition = "2021"
+description = "allows for locking structures to specific versions."
+license = "MIT OR Apache-2.0"
+
+[lib]
+proc-macro = true
+
+[dependencies]
+sha2 = "0.10.6"
+syn = "1.0"
+quote = "1.0"
+hex = "0.4.3"
